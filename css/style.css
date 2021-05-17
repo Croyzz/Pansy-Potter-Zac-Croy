@@ -1,0 +1,231 @@
+/*Stylesheet for Pansy Potter
+  Developed by Zac Croy
+  17/11/2020 - Version 1.0*/
+  html#index{
+  background-image: url('../images/background.jpg');
+  background-size: 100% 100% ;
+  }
+  html{
+	  background-color: #a29784;
+  }
+  
+  body {
+	  font-family: Verdana, Helvetica, sans-serif;
+	  
+  }
+  
+  header{
+	  background-color: #3c1361;
+	  width:100%;
+	  height: 60px;
+	  display: flex;
+	  text-align: center;
+	  left: 0%;
+	  position: absolute;
+	  top: 0%;
+	  	}
+    
+	
+  nav li{
+	  display: inline;
+	  
+	}
+  
+  /*:hover is used for when the mouse cursor hovers over buttons specified.*/
+  nav li a:hover {
+	color: #3c1361;
+	background-color: #649568;
+}  
+  
+   nav li a{
+	  color: #649568;
+	  text-decoration: none;
+	  text-align: center;
+	  padding: 20px;
+  }
+  /*The #index is used to pull the named "nav".*/
+    nav#index {
+	  display: inline;
+	  background-color: #3c1361;
+	  width:100%;
+	  position:absolute;
+	  top: 0%;
+	  left: 0%;
+	  text-align: center;
+	}
+  
+  nav#index a{
+	  color: #649568; 
+  }
+  
+  nav#index li a:hover {
+	color: #3c1361;
+	background-color: #649568;
+}  
+  
+  /*Had to use width + transform to make background padding colour stem across whole page.*/
+   h3 {
+    font-family: Verdana, Helvetica, sans-serif;
+	color: #3c1361;
+	text-align: center;
+	padding: 10px;
+	background-color:#649568;
+	transform: translate(-1%, 0%);
+	width: 100%;
+		
+	}
+	/*rgba(232, 232, 232, 0.7)*/
+
+   p#pPortfolio {
+	 text-align: justify;
+	 position: absolute;
+	 color: white;
+ }
+  
+  footer#footerServices{
+	  position: fixed;
+  }
+  
+img#PondsWater {
+	width: 50%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#Stonework {
+	width: 30%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#Paving {
+	width: 50%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#Softscape {
+	width: 50%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#stoneballwater {
+	width: 50%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img#stairswithplants {
+	width: 50%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#courtyardgarden {
+	width: 50%;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.WelcomeMsg h3{
+	position: absolute;
+	 top: 20%;
+  left: 48.4%;
+  transform: translate(-50%, -50%);
+  font-family: Verdana, Helvetica, sans-serif;
+	width:100%;
+	color: #3c1361;
+	text-align: center;
+	padding: 20px;
+	background-color: #649568BF;
+}
+
+div.CookiesMsg h3{
+	position: absolute;
+	 top: 50%;
+  left: 48.4%;
+  transform: translate(-50%, -50%);
+  font-family: Verdana, Helvetica, sans-serif;
+	width:100%;
+	color: #3c1361;
+	text-align: center;
+	padding: 10px;
+	background-color: #649568BF;
+}
+
+/*Changes form boxes appearances (The typable boxes)*/
+input[type=text] {
+  padding: 3px 7px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  transition: width 0.4s ease-in-out;
+  }
+
+/*When focused on text boxes, will do whatever is stated*/
+input[type=text]:focus {
+  border: 3px solid #555;
+  width: 30%;
+}
+
+textarea {
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+select {
+	padding: 3px 8px;
+	border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+input[type=checkbox]:checked	{
+	
+}
+
+footer {
+	 width:96.9%;
+	 position:absolute;
+	 bottom:0px;
+	background-color: #3c1361;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	left: 0%;
+}
+  
+  footer a {
+	color: #649568;
+	text-decoration: none;
+	padding: 20px;
+}
+
+footer a:hover {
+	color: #3c1361;
+	background-color: #649568;
+}
